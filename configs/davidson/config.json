@@ -1,0 +1,8 @@
+{
+  "id": "davidson",
+  "name": "Davidson Marra",
+  "theme": "light",
+  "baseUrl": "https://davidsonmarra.com.br",
+  "modules": ["blog", "search"],
+  "iconsPath": "./icons"
+}

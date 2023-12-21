@@ -4,8 +4,15 @@
   "description": "Web TS Engine for build websites",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node src/index.ts",
+    "build:davidson": "node ./src/index.js build -c ../configs/davidson/config.json -s ../site -d ../build/davidson",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Davidson Marra",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.2",
+    "fs-extra": "^8.1.0",
+    "globby": "^9.0.0"
+  }
 }
